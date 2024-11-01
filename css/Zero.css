@@ -372,6 +372,7 @@ h3{
     justify-content: center;
     align-items: center;
     z-index: 45;
+    font-weight:700;
 }
 
   .HeadLine::after {
@@ -596,7 +597,7 @@ z-index:0;    }
         border: 3px solid black;
         padding: 10px 20px;
         font-size: 24px;
-        margin: 0 88px;
+        margin: 0 auto;
         position:relative;
     }
 
@@ -1702,6 +1703,7 @@ z-index:0;    }
             background: var(--SecondColor);
             height: 80px;
             align-self:center;
+            display:flex;
         }
 
             .EventsContainer  form input[type="email"] {
